@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meter></meter>
+	<title>Conctactos</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+</head>
+
+
+<body>
+	<div class="container-fluid">
+		<header class="row align-items-center">
+			<div class="logo col-6 col-md-4 col-lg-9">
+				<img src="imagenes/logomascotas.png" class="img-fluid">
+			</div>
+
+			<div class="botones col-6 col-md-8 col-lg-3">
+				<button type="button" class="btn btn-info"><i class="bi bi-hand-index-thumb"></i> Ingresar</button>
+				<button type="button" class="btn btn-outline-info"><i class="bi bi-person-plus"></i> Registrarse</button>
+			</div>
+		</header>
+		<nav class="navbar navbar-expand-lg navbar-dark ">
+			  <div class="container-fluid">
+			    <a class="navbar-brand" href="nosotros.html"></a>
+			    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+			      <span class="navbar-toggler-icon"></span>
+			    </button>
+			    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+			      <ul class="navbar-nav">
+			        <li class="nav-item">
+			          <a class="nav-link active" aria-current="page" href="inicio.html">Inicio</a>
+			        </li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+						  Servicios
+						</a>
+						<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+						  <li><a class="dropdown-item" href="#">Submenu 1</a></li>
+						  <li><a class="dropdown-item" href="#">Submenu 2</a></li>
+						  <li><a class="dropdown-item" href="#">Submenu 3</a></li>
+						</ul>
+			        <li class="nav-item dropdown">
+			          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+			            Productos
+			          </a>
+			          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+			            <li><a class="dropdown-item" href="#">Submenu 1</a></li>
+			            <li><a class="dropdown-item" href="#">Submenu 2</a></li>
+			            <li><a class="dropdown-item" href="#">Submenu 3</a></li>
+			          </ul>
+					  <li class="nav-item">
+						<a class="nav-link" href="nosotros.html">Nosotros</a>
+					  </li>
+			        </li>
+			      </ul>
+			    </div>
+			  </div>
+		</nav>
+
+		<SECTION id="principalcontacto">
+
+
+			<div class="quienes1">
+
+
+				<article class="cajacontacto">
+				  <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15905.19612007754!2d-74.1357292!3d4.718030300000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sco!4v1617908204429!5m2!1ses!2sco"  style="border-radius:60%; border:7px solid #FFFFFF; margin-top:50px; margin-left:10%;" allowfullscreen="" loading="lazy"></iframe>
+				</article><br><br>
+
+
+				<article class="cajacontacto">
+
+				  <div class="datos">
+				  <h1 class="contacto" style="color: black; text-align:left; font-size: 1.3rem;">¿Cómo encontrarnos?</h1><br>
+
+				  <i class="fa fa-map-marker"></i><span class="neg"> Dirección:</span> Cra 1# 44-56 Bogotá D.C, Cundinamarca <br><br>
+				  <i class="fa fa-phone"></i><span class="neg"> Teléfono:</span> 311 555 55 55 <br><br>
+				  <i class="fa fa-envelope"></i><span class="neg"> Email:</span> Correo@mascotafeliz.com
+
+				  </div>
+
+				</article>
+
+			</div>
+
+			<div class="mision1">
+
+			  <div class="formulario" id="final">
+				<div class="final2c">
+				<section class= "contacto2">
+
+
+				  <div>
+					<h1 class="titulo1">Envíenos su mensaje</h1>
+					<hr>
+				  </div>
+
+				  <p>Diligencie la siguiente información:</p><br>
+				  <form name="formulario" method="get" action= "" id="frmvalidacion3">
+
+					<div id="camponombres">
+					  <label>Nombre: *</label>
+					  <input type="text" name="nombres" id="nombres" class="">
+					  <div class="feedback"></div>
+					</div>
+
+					<div id="campotelefono">
+					  <label>Teléfono: *</label>
+					  <input type="number" name="telefono1" id="telefono1" class="">
+					  <div class="feedback"></div>
+					</div>
+
+					<div id="campocorreo" >
+					  <label> Correo Electrónico: *</label>
+					  <input type="email" name="correo" placeholder="ejemplo@mi-email.com" id="correo" class="">
+					  <div class="feedback"></div>
+					</div>
+
+
+					<div id="campoAsunto">
+					  <label>Asunto: *</label>
+					  <input type="text" name="asunto" id="asunto" class="">
+					  <div class="feedback"></div>
+					</div>
+
+
+
+					<div id="campoMensaje">
+					  <label for="mensaje" class="">Mensaje: *</label>
+					  <textarea placeholder=" escriba aquí su mensaje" rows="10" cols="50" input type="textarea" name="mensaje" id="mensaje"></textarea>
+
+					</div>
+
+
+
+					<div  class="d-grid gap-2 " class="boton1">
+					 <input type="submit" name="boton" class="boton" value="Enviar Mensaje">
+				   </div>
+
+				 </form>
+
+
+			   </section>
+
+			 </div>
+			 </div>
+
+
+		<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+</body>
+</html>
